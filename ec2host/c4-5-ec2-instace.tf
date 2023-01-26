@@ -10,7 +10,5 @@ module "ec2-instance" {
   vpc_security_group_ids = [module.security-group.security_group_id]
 
   tags = local.common_tags
-  #user_data = file("userdata.txt")
-
 
 }
