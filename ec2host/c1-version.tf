@@ -7,7 +7,7 @@ terraform {
     }
   }
 }
- /* # Adding Backend as S3 for Remote State Storage
+/* # Adding Backend as S3 for Remote State Storage
   backend "s3" {
     bucket = "terraformstatefiless"
     key    = "dev/terraform.tfstate"
